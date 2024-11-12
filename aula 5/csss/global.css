@@ -1,5 +1,5 @@
 body {
-    width: 100dvw;
+    width:  100dvw;
     height: 100dvh; /* Garante que o body ocupe a altura total da tela */
     margin: 0;
     box-sizing: border-box;
@@ -21,9 +21,10 @@ h1, h2, h3, p {
 main{
     width: 100%;
     height: calc(100dvh - 120px);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     margin-top: 60px;
+    padding-bottom: 60px;
     padding: 35px;
     overflow-y: auto; /* Adiciona rolagem se o conteúdo for maior que o espaço disponível */
 }

@@ -4,17 +4,14 @@ body{
 
 main {
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
 main section{
-    margin: 20px 60px;
+    margin: 20px 30px;
 }
 
-.sobre{
-    width: 40%;
-}
 
 .containerData{
     display: flex;
