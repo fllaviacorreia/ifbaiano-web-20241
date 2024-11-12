@@ -1,6 +1,4 @@
 body {
-    width:  100dvw;
-    height: 100dvh; /* Garante que o body ocupe a altura total da tela */
     margin: 0;
     box-sizing: border-box;
     display: flex;
@@ -21,7 +19,7 @@ h1, h2, h3, p {
 main{
     width: 100%;
     height: calc(100dvh - 120px);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     margin-top: 60px;
     padding-bottom: 60px;
