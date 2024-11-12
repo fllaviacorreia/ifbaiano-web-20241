@@ -1,0 +1,83 @@
+body{
+    background-image: url('../assets/imgs/background7.jpg');
+}
+
+main {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section{
+    margin: 20px 60px;
+}
+
+.sobre{
+    width: 40%;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.allData{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 4 colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.allData div{
+    width: 250px;
+    background-color: rgba(0,0,0, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .sobre{
+        width: 90%;
+        margin: 50px;
+    }
+
+    .containerData{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .allData{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .allData{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    .allData div{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .allData{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .allData div{
+        width: 100%;
+    }
+}

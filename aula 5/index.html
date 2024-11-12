@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="csss/index.css">
+    <link rel="stylesheet" href="csss/header.css">
+    <link rel="stylesheet" href="csss/footer.css">
+    <link rel="stylesheet" href="csss/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Isso é um comentário :) -->
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="onToggleMenu()">
+                <img src="assets/menu.svg" width="25"/>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sinopse.html">Sinopse</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="trilha.html">Trilha Sonora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>O Castelo Animado</h1>
+    </main>
+    <footer>
+        <p> Feito com ❤️ em Itapetinga-BA</p>
+    </footer>
+
+    <script>
+        function onToggleMenu(){
+            var menu = document.querySelector('.menu')
+            menu.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>

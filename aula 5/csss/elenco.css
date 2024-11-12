@@ -1,0 +1,41 @@
+body{
+    background-image: url('../assets/imgs/background8.jpg')
+}
+
+main{
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+}
+.card {
+    width: 200px; /* Largura do card */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente */
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o conteúdo */
+    color: #fff; /* Cor do texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar o card */
+}
+
+.card img {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    margin-bottom: 15px; /* Espaço entre a imagem e o título */
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.5;
+}

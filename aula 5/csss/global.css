@@ -1,0 +1,34 @@
+body {
+    width: 100dvw;
+    height: 100dvh; /* Garante que o body ocupe a altura total da tela */
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, p {
+    font-family: 'Secular One';
+    color: white;
+
+}
+
+main{
+    width: 100%;
+    height: calc(100dvh - 120px);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    margin-top: 60px;
+    padding: 35px;
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo for maior que o espaço disponível */
+}
+
+p{ 
+    font-size: 15px;
+    text-align: justify;
+}

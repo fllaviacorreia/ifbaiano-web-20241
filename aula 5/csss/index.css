@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+body{
+    background-image: url("../assets/imgs/background4.jpeg");
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 52px;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 35px;
+        width: 300px;
+        text-align: center;
+    }
+}

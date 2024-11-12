@@ -1,0 +1,15 @@
+
+body{
+    background-image: url("../assets/imgs/background3.jpeg");
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 50%;
+    height: 80%;
+    padding-bottom: 12px;
+}

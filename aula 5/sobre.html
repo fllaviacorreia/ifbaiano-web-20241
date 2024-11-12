@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="csss/header.css">
+    <link rel="stylesheet" href="csss/footer.css">
+    <link rel="stylesheet" href="csss/global.css">
+    <link rel="stylesheet" href="csss/sobre.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Isso é um comentário :) -->
+   <header>
+        <nav>
+            <div class="menu-icon" onclick="onToggleMenu()">
+                <img src="assets/menu.svg" width="25"/>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sinopse.html">Sinopse</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="trilha.html">Trilha Sonora</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+    <section class="sobre">
+    <h2>Sobre</h2>
+        <div>
+            <p>O Castelo Animado é uma animação japonesa do diretor Hayao Miyazaki, produzida pelo Studio Ghibli em 2004. A história é baseada no livro de mesmo nome da escritora inglesa Diana Wynne Jones.</p>
+            <p>Miyazaki viajou para a Inglaterra no verão de 2004 para oferecer a Jones uma exibição particular do filme final. Ela foi citada dizendo: “É fantástico. Não, não tenho opinião – escrevo livros, não filmes. Sim, será diferente do livro – na verdade, é provável que seja muito diferente, mas é assim que deve ser. Ainda será um filme fantástico ”</p>
+            <p>Mamoru Hosoda, da Toei Animation, foi originalmente selecionado para dirigir o filme, mas deixou o projeto depois que os executivos do Studio Ghibli rejeitaram muitas de suas ideias conceituais. O filme foi arquivado até Miyazaki assumir o cargo. O projeto foi retomado em fevereiro de 2003. Estava programado para ser concluído na primavera de 2004 e lançado no verão daquele ano.</p>
+        </div>
+    </section>
+    <section class="containerData">
+        <h2> Dados técnicos </h2>
+        <div class="allData">
+
+        <div>
+            <h3>Título original</h3>
+            <p>Hauru no Ugoku Shiro</p>
+        </div>
+        <div>
+            <h3>Título traduzido</h3>
+            <p>O Castelo Animado</p>
+        </div>
+        <div>
+            <h3>País</h3>
+            <p>Japão</p>
+        </div>
+        <div>
+            <h3>Ano</h3>
+            <p>2004</p>
+        </div>
+        <div>
+            <h3>Características</h3>
+            <p>colorido</p>
+        </div>
+        <div>
+            <h3>Duração</h3>
+            <p>119 minutos</p>
+        </div>
+        <div>
+            <h3>Direção</h3>
+            <p>Hayao Miyazaki</p>
+        </div>
+        <div>
+            <h3>Produção</h3>
+            <p>Toshio Suzuki</p>
+        </div>
+        <div>
+            <h3>Roteiro</h3>
+            <p>Hayao Miyazaki</p>
+        </div>
+        <div>
+            <h3>Música</h3>
+            <p>Joe Hisaishi</p>
+        </div>
+        <div>
+            <h3>Gênero</h3>
+            <p>Fantasia</p>
+        </div>
+        <div>
+            <h3>Cinematografia</h3>
+            <p>Atsushi Okui</p>
+        </div>
+        <div>
+            <h3>Direção de Arte</h3>
+            <p>Yoji Takeshige</p>
+            <p>Noboru Yoshida</p>
+        </div>
+        <div>
+            <h3>Edição</h3>
+            <p>Takeshi Seyama</p>
+        </div>
+        <div>
+            <h3>Companhia(s) Produtora(s)</h3>
+            <p>Studio Ghibli</p>
+        </div>
+        <div>
+            <h3>Distribuição</h3>
+            <p>Toho</p>
+        </div>
+        <div>
+            <h3>Lançamento</h3>
+            <p>20 de novembro de 2004</p>
+        </div>
+        <div>
+            <h3>Idioma</h3>
+            <p>Japonês</p>
+        </div>
+        <div>
+            <h3>Orçamento</h3>
+            <p>¥ 2,4 bilhões</p>
+        </div>
+        <div>
+            <h3>Receita</h3>
+            <p>US$ 236 milhões</p>
+        </div>        
+        </div>        
+    </section>
+   </main>
+   <footer>
+        <p> Feito com ❤️ em Itapetinga-BA</p>
+   </footer>
+
+   <script>
+    function onToggleMenu(){
+        var menu = document.querySelector('.menu')
+        menu.classList.toggle('open');
+    }
+</script>
+</body>
+</html>
