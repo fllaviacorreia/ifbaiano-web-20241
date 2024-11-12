@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: aquamarine;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        li{
+            margin: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu-icon{
+            display: none;
+        }
+        @media screen and (max-width: 600px){
+            .menu{
+                display: none;
+            }
+            .menu.open, .menu-icon{
+                display: block;
+            }
+            nav ul{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+                <div class="menu-icon" onclick="onToggleMenu()">
+                    <img src="hamburger-menu-svgrepo-com.svg" width="25"/>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Sinopse</a></li>
+                    <li><a href="#">Elenco</a></li>
+                    <li><a href="#">Trilha Sonora</a></li>
+                </ul>
+            </nav>
+        </header> 
+    </header>
+    <script>
+        function onToggleMenu(){
+            var menu = document.querySelector('.menu')
+            menu.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>

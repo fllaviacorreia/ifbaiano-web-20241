@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
 
 body{
     margin: 0;
     display: flex;
     flex-direction: column;
     height: 100dvh;
-    background-image: url("../assets/imgs/background4.jpeg");
+    background-image: url("../assets/imgs/background3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,8 +18,8 @@ main{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-h1{
-    font-family: 'Secular One';
-    color: #fff;
-    font-size: 52px;
+iframe {
+    width: 50%;
+    height: 80%;
+    padding-bottom: 12px;
 }
